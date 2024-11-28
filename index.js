@@ -1,7 +1,5 @@
 const searchInput = document.getElementById("search_input");
-
 const crossContainer = document.getElementById("cross_container");
-
 const cross = document.getElementById("cross");
 
 function showhidecross() {
@@ -18,5 +16,4 @@ function clearInputText() {
 }
 
 searchInput.oninput = showhidecross;
-
 cross.onclick = clearInputText;
